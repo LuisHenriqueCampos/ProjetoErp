@@ -1,0 +1,79 @@
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\bin\ERP_JOSEREIS.dll
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\bin\ERP_JOSEREIS.pdb
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\bin\Microsoft.Web.Infrastructure.dll
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Net.Http.dll
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Net.Http.Formatting.dll
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Net.Http.WebRequest.dll
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Web.Helpers.dll
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Web.Http.dll
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Web.Http.WebHost.dll
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Web.Mvc.dll
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Web.Razor.dll
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Web.WebPages.Deployment.dll
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Web.WebPages.dll
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Web.WebPages.Razor.dll
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\bin\WebMatrix.Data.dll
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\bin\WebMatrix.WebData.dll
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\bin\EntityFramework.xml
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\bin\Newtonsoft.Json.xml
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Net.Http.xml
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Net.Http.Formatting.xml
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Net.Http.WebRequest.xml
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Web.Helpers.xml
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Web.Http.xml
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Web.Http.WebHost.xml
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Web.Mvc.xml
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Web.Razor.xml
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Web.WebPages.xml
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Web.WebPages.Deployment.xml
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Web.WebPages.Razor.xml
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\bin\WebMatrix.Data.xml
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\bin\WebMatrix.WebData.xml
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\bin\DotNetOpenAuth.AspNet.xml
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\bin\DotNetOpenAuth.Core.xml
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\bin\DotNetOpenAuth.OAuth.xml
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\bin\DotNetOpenAuth.OpenId.xml
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\obj\Debug\ResolveAssemblyReference.cache
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\obj\Debug\ERP_JOSEREIS.dll
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\obj\Debug\ERP_JOSEREIS.pdb
+D:\SI5_2014\ERP_JOSEREIS\ERP_JOSEREIS\bin\Microsoft.Web.Infrastructure.xml
+D:\Curso Sistemas de Informação\5º Período SI\TÓPICOS INTEGRADORES I\Projetos\Projeto_JoseReis\ERP_JOSEREIS\ERP_JOSEREIS\bin\ERP_JOSEREIS.dll.config
+D:\Curso Sistemas de Informação\5º Período SI\TÓPICOS INTEGRADORES I\Projetos\Projeto_JoseReis\ERP_JOSEREIS\ERP_JOSEREIS\bin\ERP_JOSEREIS.dll
+D:\Curso Sistemas de Informação\5º Período SI\TÓPICOS INTEGRADORES I\Projetos\Projeto_JoseReis\ERP_JOSEREIS\ERP_JOSEREIS\bin\ERP_JOSEREIS.pdb
+D:\Curso Sistemas de Informação\5º Período SI\TÓPICOS INTEGRADORES I\Projetos\Projeto_JoseReis\ERP_JOSEREIS\ERP_JOSEREIS\bin\Microsoft.Web.Infrastructure.dll
+D:\Curso Sistemas de Informação\5º Período SI\TÓPICOS INTEGRADORES I\Projetos\Projeto_JoseReis\ERP_JOSEREIS\ERP_JOSEREIS\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Curso Sistemas de Informação\5º Período SI\TÓPICOS INTEGRADORES I\Projetos\Projeto_JoseReis\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Net.Http.dll
+D:\Curso Sistemas de Informação\5º Período SI\TÓPICOS INTEGRADORES I\Projetos\Projeto_JoseReis\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Net.Http.Formatting.dll
+D:\Curso Sistemas de Informação\5º Período SI\TÓPICOS INTEGRADORES I\Projetos\Projeto_JoseReis\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Net.Http.WebRequest.dll
+D:\Curso Sistemas de Informação\5º Período SI\TÓPICOS INTEGRADORES I\Projetos\Projeto_JoseReis\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Web.Helpers.dll
+D:\Curso Sistemas de Informação\5º Período SI\TÓPICOS INTEGRADORES I\Projetos\Projeto_JoseReis\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Web.Http.dll
+D:\Curso Sistemas de Informação\5º Período SI\TÓPICOS INTEGRADORES I\Projetos\Projeto_JoseReis\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Web.Http.WebHost.dll
+D:\Curso Sistemas de Informação\5º Período SI\TÓPICOS INTEGRADORES I\Projetos\Projeto_JoseReis\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Web.Mvc.dll
+D:\Curso Sistemas de Informação\5º Período SI\TÓPICOS INTEGRADORES I\Projetos\Projeto_JoseReis\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Web.Razor.dll
+D:\Curso Sistemas de Informação\5º Período SI\TÓPICOS INTEGRADORES I\Projetos\Projeto_JoseReis\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Web.WebPages.Deployment.dll
+D:\Curso Sistemas de Informação\5º Período SI\TÓPICOS INTEGRADORES I\Projetos\Projeto_JoseReis\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Web.WebPages.dll
+D:\Curso Sistemas de Informação\5º Período SI\TÓPICOS INTEGRADORES I\Projetos\Projeto_JoseReis\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Web.WebPages.Razor.dll
+D:\Curso Sistemas de Informação\5º Período SI\TÓPICOS INTEGRADORES I\Projetos\Projeto_JoseReis\ERP_JOSEREIS\ERP_JOSEREIS\bin\WebMatrix.Data.dll
+D:\Curso Sistemas de Informação\5º Período SI\TÓPICOS INTEGRADORES I\Projetos\Projeto_JoseReis\ERP_JOSEREIS\ERP_JOSEREIS\bin\WebMatrix.WebData.dll
+D:\Curso Sistemas de Informação\5º Período SI\TÓPICOS INTEGRADORES I\Projetos\Projeto_JoseReis\ERP_JOSEREIS\ERP_JOSEREIS\bin\EntityFramework.xml
+D:\Curso Sistemas de Informação\5º Período SI\TÓPICOS INTEGRADORES I\Projetos\Projeto_JoseReis\ERP_JOSEREIS\ERP_JOSEREIS\bin\Microsoft.Web.Infrastructure.xml
+D:\Curso Sistemas de Informação\5º Período SI\TÓPICOS INTEGRADORES I\Projetos\Projeto_JoseReis\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Net.Http.xml
+D:\Curso Sistemas de Informação\5º Período SI\TÓPICOS INTEGRADORES I\Projetos\Projeto_JoseReis\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Net.Http.Formatting.xml
+D:\Curso Sistemas de Informação\5º Período SI\TÓPICOS INTEGRADORES I\Projetos\Projeto_JoseReis\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Net.Http.WebRequest.xml
+D:\Curso Sistemas de Informação\5º Período SI\TÓPICOS INTEGRADORES I\Projetos\Projeto_JoseReis\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Web.Helpers.xml
+D:\Curso Sistemas de Informação\5º Período SI\TÓPICOS INTEGRADORES I\Projetos\Projeto_JoseReis\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Web.Http.xml
+D:\Curso Sistemas de Informação\5º Período SI\TÓPICOS INTEGRADORES I\Projetos\Projeto_JoseReis\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Web.Http.WebHost.xml
+D:\Curso Sistemas de Informação\5º Período SI\TÓPICOS INTEGRADORES I\Projetos\Projeto_JoseReis\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Web.Mvc.xml
+D:\Curso Sistemas de Informação\5º Período SI\TÓPICOS INTEGRADORES I\Projetos\Projeto_JoseReis\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Web.Razor.xml
+D:\Curso Sistemas de Informação\5º Período SI\TÓPICOS INTEGRADORES I\Projetos\Projeto_JoseReis\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Web.WebPages.xml
+D:\Curso Sistemas de Informação\5º Período SI\TÓPICOS INTEGRADORES I\Projetos\Projeto_JoseReis\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Web.WebPages.Deployment.xml
+D:\Curso Sistemas de Informação\5º Período SI\TÓPICOS INTEGRADORES I\Projetos\Projeto_JoseReis\ERP_JOSEREIS\ERP_JOSEREIS\bin\System.Web.WebPages.Razor.xml
+D:\Curso Sistemas de Informação\5º Período SI\TÓPICOS INTEGRADORES I\Projetos\Projeto_JoseReis\ERP_JOSEREIS\ERP_JOSEREIS\bin\WebMatrix.Data.xml
+D:\Curso Sistemas de Informação\5º Período SI\TÓPICOS INTEGRADORES I\Projetos\Projeto_JoseReis\ERP_JOSEREIS\ERP_JOSEREIS\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Curso Sistemas de Informação\5º Período SI\TÓPICOS INTEGRADORES I\Projetos\Projeto_JoseReis\ERP_JOSEREIS\ERP_JOSEREIS\bin\WebMatrix.WebData.xml
+D:\Curso Sistemas de Informação\5º Período SI\TÓPICOS INTEGRADORES I\Projetos\Projeto_JoseReis\ERP_JOSEREIS\ERP_JOSEREIS\obj\Debug\ERP_JOSEREIS.dll
+D:\Curso Sistemas de Informação\5º Período SI\TÓPICOS INTEGRADORES I\Projetos\Projeto_JoseReis\ERP_JOSEREIS\ERP_JOSEREIS\obj\Debug\ERP_JOSEREIS.pdb

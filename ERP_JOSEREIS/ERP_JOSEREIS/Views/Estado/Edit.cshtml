@@ -1,0 +1,45 @@
+﻿@model ERP_JOSEREIS.Models.Estado
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Estado</legend>
+
+        @Html.HiddenFor(model => model.IdEstado)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Nome)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Nome)
+            @Html.ValidationMessageFor(model => model.Nome)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Sigla)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Sigla)
+            @Html.ValidationMessageFor(model => model.Sigla)
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+@{
+    for(int i = 0; i<= 10; i++)
+    {
+        <p>i = @i</p>
+        if(i ==5)
+        {
+        <h2>Chegou na Metade</h2>
+        }
+    }
+}

@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "Tabuada";
+}
+
+<h2>Tabuada</h2>
+
+@{
+    if(ViewBag.num == null)
+    {
+        <p>Nenhum parametro foi passado !!!</p>
+    }
+    else
+    { 
+        
+        int result;
+        <table>
+            
+            @for (int j = 0; j <= 10; j++)
+            {
+                <tr>
+
+                @for (int i = 2; i <= ViewBag.num; i++)
+                {
+                    result = j * i;            
+                    <td>@i * @j = @result</td>
+                }
+                
+                </tr>
+            }
+
+        </table>
+    }
+}

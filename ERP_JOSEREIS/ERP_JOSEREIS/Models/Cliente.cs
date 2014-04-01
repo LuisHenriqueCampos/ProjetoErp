@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ERP_JOSEREIS.Models
 {
@@ -10,5 +11,7 @@ namespace ERP_JOSEREIS.Models
     {
         [Key]
         public int IdCliente { get; set; }
+        [ForeignKey("IdCliente")]
+        public Pessoa Pessoa { get; set; }
     }
 }

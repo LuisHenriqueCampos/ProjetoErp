@@ -31,5 +31,7 @@ namespace ERP_JOSEREIS.Models
             modelBuilder.Entity<PessoaJuridica>().ToTable("PessoaJuridica");
             modelBuilder.Entity<Funcionario>().ToTable("Funcionario");
         }
+
+        public DbSet<Funcionario> Funcionarios { get; set; }
     }
 }

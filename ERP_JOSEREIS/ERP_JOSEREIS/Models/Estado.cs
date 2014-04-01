@@ -10,6 +10,7 @@ namespace ERP_JOSEREIS.Models
     {
         [Key]
         public int IdEstado { get; set; }
+        [Required (ErrorMessage="Erro")]
         public string Nome { get; set; }
         public string Sigla { get; set; }
         public ICollection<Cidade> Cidades { get; set; }

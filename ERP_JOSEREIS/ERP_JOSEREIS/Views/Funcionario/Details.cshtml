@@ -1,0 +1,120 @@
+﻿@model ERP_JOSEREIS.Models.Funcionario
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Funcionario</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.DataAdmissao)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.DataAdmissao)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.DataDemissao)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.DataDemissao)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Salario)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Salario)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.DataNascimento)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.DataNascimento)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CPF)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CPF)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.TelefoneCelular)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.TelefoneCelular)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.RG)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.RG)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Nome)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Nome)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.DataCadastro)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.DataCadastro)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Rua)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Rua)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Numero)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Numero)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Bairro)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Bairro)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.CEP)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.CEP)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.TelefoneComercial)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.TelefoneComercial)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.TelefoneResidencial)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.TelefoneResidencial)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.IdPessoa }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

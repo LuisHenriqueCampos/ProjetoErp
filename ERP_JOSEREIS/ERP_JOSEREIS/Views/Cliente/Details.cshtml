@@ -1,0 +1,15 @@
+﻿@model ERP_JOSEREIS.Models.Cliente
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Cliente</legend>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.IdCliente }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

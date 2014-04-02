@@ -6,6 +6,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using ERP_JOSEREIS.Models;
+using ERP_JOSEREIS.ViewModels;
 
 namespace ERP_JOSEREIS.Controllers
 {
@@ -18,7 +19,7 @@ namespace ERP_JOSEREIS.Controllers
 
         public ActionResult Index()
         {
-            return View(db.Clientes.ToList());
+            return View(db.Clientes.Include(c => c.Pessoa).ToList());
         }
 
         //
@@ -65,11 +66,21 @@ namespace ERP_JOSEREIS.Controllers
         public ActionResult Edit(int id = 0)
         {
             Cliente cliente = db.Clientes.Find(id);
+            var pf = db.PessoasFisicas.Find(id);
+            ClienteViewModel clienteVM;
+
             if (cliente == null)
             {
                 return HttpNotFound();
             }
-            return View(cliente);
+            if (pf == null) 
+            {
+                var pj = db.PessoasJuridicas.Find(id);
+                clienteVM = new ClienteViewModel(cliente, pj);
+                return View(clienteVM);
+            }
+            clienteVM = new ClienteViewModel(cliente, pf);
+            return View(clienteVM);
         }
 
         //

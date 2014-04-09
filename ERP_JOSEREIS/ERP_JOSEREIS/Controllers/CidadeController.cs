@@ -27,7 +27,7 @@ namespace ERP_JOSEREIS.Controllers
 
         public ActionResult Details(int id = 0)
         {
-            var cidade = db.Cidades.Include(c => c.Estado).FirstOrDefault(c => c.IdCidade == id);
+            Cidade cidade = db.Cidades.Find(id);
             if (cidade == null)
             {
                 return HttpNotFound();

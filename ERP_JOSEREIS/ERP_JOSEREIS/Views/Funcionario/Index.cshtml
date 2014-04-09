@@ -9,107 +9,41 @@
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
-<table cellpadding="10">
+<table>
     <tr>
-        @*<th>
-            @Html.DisplayNameFor(model => model.DataAdmissao)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.DataDemissao)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Salario)
-        </th>*@
+        
         <th>
             @Html.DisplayNameFor(model => model.DataNascimento)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.CPF)
         </th>
-        @*<th>
-            @Html.DisplayNameFor(model => model.TelefoneCelular)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.RG)
-        </th>*@
+        
         <th>
             @Html.DisplayNameFor(model => model.Nome)
         </th>
-        @*<th>
-            @Html.DisplayNameFor(model => model.DataCadastro)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Rua)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Numero)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Bairro)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.CEP)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.TelefoneComercial)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.TelefoneResidencial)
-        </th>*@
+        
         <th></th>
     </tr>
 
 @foreach (var item in Model) {
     <tr>
-        @*<td>
-            @Html.DisplayFor(modelItem => item.DataAdmissao)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.DataDemissao)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Salario)
-        </td>*@
-        <td>
-            @Html.DisplayFor(modelItem => item.Nome)
-        </td>
+        
         <td>
             @Html.DisplayFor(modelItem => item.DataNascimento)
         </td>
-        @*<td>
-            @Html.DisplayFor(modelItem => item.TelefoneCelular)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.RG)
-        </td>*@
         <td>
             @Html.DisplayFor(modelItem => item.CPF)
         </td>
-        @*<td>
-            @Html.DisplayFor(modelItem => item.DataCadastro)
+        
+        <td>
+            @Html.DisplayFor(modelItem => item.Nome)
         </td>
+        
         <td>
-            @Html.DisplayFor(modelItem => item.Rua)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Numero)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Bairro)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.CEP)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.TelefoneComercial)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.TelefoneResidencial)
-        </td>*@
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id = item.IdPessoa }) |
-            @Html.ActionLink("Details", "Details", new { id = item.IdPessoa }) |
-            @Html.ActionLink("Delete", "Delete", new { id = item.IdPessoa })
+            @Html.ActionLink("Edit", "Edit", new { id=item.IdPessoa }) |
+            @Html.ActionLink("Details", "Details", new { id=item.IdPessoa }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.IdPessoa })
         </td>
     </tr>
 }

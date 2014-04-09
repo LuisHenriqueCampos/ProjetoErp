@@ -20,6 +20,7 @@ namespace ERP_JOSEREIS.Controllers
         public ActionResult Index()
         {
             return View(db.Clientes.Include(c => c.Pessoa).ToList());
+
         }
 
         //
@@ -38,9 +39,12 @@ namespace ERP_JOSEREIS.Controllers
         //
         // GET: /Cliente/Create
 
-        public ActionResult Create()
+        public ActionResult CreatePF()
         {
-            return View();
+            Cliente cliente = new Cliente();
+            PessoaFisica pf = new PessoaFisica();
+            var clienteVM = new ClienteViewModel(cliente, pf);
+            return View("Edit", clienteVM);
         }
 
         //
@@ -65,38 +69,60 @@ namespace ERP_JOSEREIS.Controllers
 
         public ActionResult Edit(int id = 0)
         {
-            Cliente cliente = db.Clientes.Find(id);
-            var pf = db.PessoasFisicas.Find(id);
-            ClienteViewModel clienteVM;
 
+            Cliente cliente = db.Clientes.Find(id);
+            PessoaFisica pf;
+            PessoaJuridica pj;
+            
+            ClienteViewModel clienteVM;
             if (cliente == null)
             {
                 return HttpNotFound();
             }
-            if (pf == null) 
+            try
             {
-                var pj = db.PessoasJuridicas.Find(id);
+                pf = db.PessoasFisicas.Find(id);
+                clienteVM = new ClienteViewModel(cliente, pf);
+                return View(clienteVM);
+            }
+            catch
+            {
+                pj = db.PessoasJuridicas.Find(id);
                 clienteVM = new ClienteViewModel(cliente, pj);
                 return View(clienteVM);
             }
-            clienteVM = new ClienteViewModel(cliente, pf);
-            return View(clienteVM);
+
+           
         }
 
         //
         // POST: /Cliente/Edit/5
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(Cliente cliente)
+        
+        public ActionResult EditPF(Cliente cliente, PessoaFisica pessoaFisica)
         {
+
+           // cliente.IdCliente = pessoaFisica.IdPessoa;
+           // pessoaFisica.DataCadastro = DateTime.Now;
             if (ModelState.IsValid)
             {
-                db.Entry(cliente).State = EntityState.Modified;
-                db.SaveChanges();
-                return RedirectToAction("Index");
+                if (pessoaFisica.IdPessoa != 0)
+                {
+                    db.Entry(cliente).State = EntityState.Modified;
+                    db.Entry(pessoaFisica).State = EntityState.Modified;
+                    db.SaveChanges();
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    db.Clientes.Add(cliente);
+                    db.PessoasFisicas.Add(pessoaFisica);
+                    db.SaveChanges();
+                }
             }
-            return View(cliente);
+            ClienteViewModel clienteVM = new ClienteViewModel(cliente, pessoaFisica);
+            return View("Edit",cliente);
         }
 
         //

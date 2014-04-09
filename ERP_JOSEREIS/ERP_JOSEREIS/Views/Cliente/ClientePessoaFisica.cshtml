@@ -4,8 +4,8 @@
 <script src="~/Scripts/jquery.validate.min.js"></script>
 <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
 
-@using (Html.BeginForm()) {
-    @Html.AntiForgeryToken()
+@using (Html.BeginForm("EditPF", "Cliente")) {
+    
     @Html.ValidationSummary(true)
 
     <fieldset>
@@ -44,6 +44,7 @@
         </div>
 
         @Html.HiddenFor(model => model.PessoaFisica.IdPessoa)
+        @Html.HiddenFor(model => model.Cliente.IdCliente)
 
         <div class="editor-label">
             @Html.LabelFor(model => model.PessoaFisica.Nome)
@@ -108,6 +109,7 @@
             @Html.EditorFor(model => model.PessoaFisica.TelefoneResidencial)
             @Html.ValidationMessageFor(model => model.PessoaFisica.TelefoneResidencial)
         </div>
+
         <div class="editor-label">
             @Html.LabelFor(model => model.Cliente.Preferencial)
         </div>

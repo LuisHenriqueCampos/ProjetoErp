@@ -4,9 +4,9 @@
     ViewBag.Title = "Edit";
 }
 
-<h2>Editar Cliente</h2>
+<h2>Edit</h2>
 
-@if (Model.PessoaFisica != null)
+@if(Model.PessoaFisica != null)
 {
     @Html.Partial("ClientePessoaFisica")
 }
@@ -14,6 +14,8 @@ else
 {
     @Html.Partial("ClientePessoaJuridica")
 }
+
+
 
 <div>
     @Html.ActionLink("Back to List", "Index")

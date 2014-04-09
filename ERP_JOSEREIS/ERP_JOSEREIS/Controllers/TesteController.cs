@@ -22,22 +22,5 @@ namespace ERP_JOSEREIS.Controllers
             return View();
         }
 
-        public ActionResult Tabuada2(int? id)
-        {
-            ViewBag.num = id;
-            return View();
-        }
-
-        [HttpPost]
-        public ActionResult Tabuada3(int? id)
-        {
-            return RedirectToAction("Tabuada2", new { id = id });
-        }
-       
-        public ActionResult Tabuada3()
-        {           
-            return View();
-        }
-
     }
 }

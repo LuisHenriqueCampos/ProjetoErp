@@ -342,6 +342,21 @@
     <Content Include="Views\Teste\Tabuada.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Views\Default1\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Default1\Details.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Default1\Create.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Default1\Edit.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Default1\Delete.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="Views\Cidade\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
@@ -385,12 +400,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Cliente\Delete.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\Teste\Tabuada2.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\Teste\Tabuada3.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Cliente\ClientePessoaFisica.cshtml" />

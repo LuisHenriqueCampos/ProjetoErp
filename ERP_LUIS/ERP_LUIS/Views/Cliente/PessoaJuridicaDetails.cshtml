@@ -1,0 +1,86 @@
+﻿@model ERP_ANDERSON.ViewModel.ClienteViewModel
+
+<fieldset>
+    <legend>PessoaJuridica.</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.PessoaJuridica.CNPJ)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PessoaJuridica.CNPJ)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.PessoaJuridica.NomeFantasia)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PessoaJuridica.NomeFantasia)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.PessoaJuridica.Nome)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PessoaJuridica.Nome)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.PessoaJuridica.DataCadastro)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PessoaJuridica.DataCadastro)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.PessoaJuridica.Rua)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PessoaJuridica.Rua)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.PessoaJuridica.Numero)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PessoaJuridica.Numero)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.PessoaJuridica.Bairro)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PessoaJuridica.Bairro)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.PessoaJuridica.CEP)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PessoaJuridica.CEP)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.PessoaJuridica.TelefoneComercial)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PessoaJuridica.TelefoneComercial)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.PessoaJuridica.TelefoneResidencial)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PessoaJuridica.TelefoneResidencial)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.PessoaJuridica.IdCidade)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PessoaJuridica.IdCidade)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.PessoaJuridica.IdPessoa }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

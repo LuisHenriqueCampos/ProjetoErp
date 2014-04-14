@@ -1,0 +1,93 @@
+﻿@model ERP_ANDERSON.ViewModel.FornecedorViewModel
+
+<fieldset>
+    <legend>PessoaFisica</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.PessoaFisica.DataNascimento)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PessoaFisica.DataNascimento)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.PessoaFisica.CPF)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PessoaFisica.CPF)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.PessoaFisica.TelefoneResidencial)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PessoaFisica.TelefoneResidencial)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.PessoaFisica.RG)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PessoaFisica.RG)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.PessoaFisica.Nome)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PessoaFisica.Nome)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.PessoaFisica.DataCadastro)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PessoaFisica.DataCadastro)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.PessoaFisica.Rua)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PessoaFisica.Rua)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.PessoaFisica.Numero)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PessoaFisica.Numero)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.PessoaFisica.Bairro)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PessoaFisica.Bairro)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.PessoaFisica.CEP)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PessoaFisica.CEP)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.PessoaFisica.TelefoneComercial)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PessoaFisica.TelefoneComercial)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.PessoaFisica.IdCidade)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.PessoaFisica.IdCidade)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.PessoaFisica.IdPessoa }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

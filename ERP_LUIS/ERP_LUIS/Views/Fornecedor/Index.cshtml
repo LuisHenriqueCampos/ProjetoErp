@@ -1,0 +1,31 @@
+﻿@model IEnumerable<ERP_ANDERSON.Models.Fornecedor>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Novo Fornecedor PF", "CreatePF")
+    @Html.ActionLink("Novo Fornecedor PJ", "CreatePJ")
+</p>
+<table>
+    <tr>
+        <th>Nome</th>
+        <th>Preferencial</th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>@item.pessoa.Nome</td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.IdFornecedor }) |
+            @Html.ActionLink("Details", "Details", new { id=item.IdFornecedor }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.IdFornecedor })
+        </td>
+    </tr>
+}
+
+</table>

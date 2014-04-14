@@ -1,0 +1,111 @@
+﻿@model ERP_ANDERSON.ViewModel.ClienteViewModel
+
+<script src="~/Scripts/jquery-1.7.1.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>PessoaJuridica</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.PessoaJuridica.CNPJ)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.PessoaJuridica.CNPJ)
+            @Html.ValidationMessageFor(model => model.PessoaJuridica.CNPJ)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.PessoaJuridica.NomeFantasia)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.PessoaJuridica.NomeFantasia)
+            @Html.ValidationMessageFor(model => model.PessoaJuridica.NomeFantasia)
+        </div>
+
+        @Html.HiddenFor(model => model.PessoaJuridica.IdPessoa)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.PessoaJuridica.Nome)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.PessoaJuridica.Nome)
+            @Html.ValidationMessageFor(model => model.PessoaJuridica.Nome)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.PessoaJuridica.DataCadastro)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.PessoaJuridica.DataCadastro)
+            @Html.ValidationMessageFor(model => model.PessoaJuridica.DataCadastro)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.PessoaJuridica.Rua)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.PessoaJuridica.Rua)
+            @Html.ValidationMessageFor(model => model.PessoaJuridica.Rua)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.PessoaJuridica.Numero)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.PessoaJuridica.Numero)
+            @Html.ValidationMessageFor(model => model.PessoaJuridica.Numero)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.PessoaJuridica.Bairro)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.PessoaJuridica.Bairro)
+            @Html.ValidationMessageFor(model => model.PessoaJuridica.Bairro)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.PessoaJuridica.CEP)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.PessoaJuridica.CEP)
+            @Html.ValidationMessageFor(model => model.PessoaJuridica.CEP)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.PessoaJuridica.TelefoneComercial)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.PessoaJuridica.TelefoneComercial)
+            @Html.ValidationMessageFor(model => model.PessoaJuridica.TelefoneComercial)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.PessoaJuridica.TelefoneResidencial)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.PessoaJuridica.TelefoneResidencial)
+            @Html.ValidationMessageFor(model => model.PessoaJuridica.TelefoneResidencial)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.PessoaJuridica.IdCidade)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.PessoaJuridica.IdCidade)
+            @Html.ValidationMessageFor(model => model.PessoaJuridica.IdCidade)
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

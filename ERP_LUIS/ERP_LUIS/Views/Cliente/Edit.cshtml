@@ -1,0 +1,25 @@
+﻿@model ERP_ANDERSON.ViewModel.ClienteViewModel
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Editar Cliente</h2>
+
+@if (Model.PessoaFisica != null)
+{
+    @Html.Partial("ClientePessoaFisica");
+}
+
+else
+{
+    @Html.Partial("ClientePessoaJuridica");
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

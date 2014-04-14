@@ -1,0 +1,17 @@
+﻿@model ERP_ANDERSON.ViewModel.ClienteViewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Detalhes do Cliente</h2>
+
+@if (Model.PessoaFisica != null)
+{
+    @Html.Partial("PessoaFisicaDetails");
+}
+
+else
+{
+    @Html.Partial("PessoaJuridicaDetails");
+}

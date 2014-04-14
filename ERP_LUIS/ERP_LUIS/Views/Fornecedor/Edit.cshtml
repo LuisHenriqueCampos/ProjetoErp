@@ -1,0 +1,25 @@
+﻿@model ERP_ANDERSON.ViewModel.FornecedorViewModel
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Editar Fornecedor</h2>
+
+@if (Model.PessoaFisica != null)
+{
+    @Html.Partial("FornecedorPessoaFisica");
+}
+
+else
+{
+    @Html.Partial("FornecedorPessoaJuridica");
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
